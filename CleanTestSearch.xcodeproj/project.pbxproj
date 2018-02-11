@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		FD753C1C202DC18B001E8DB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C1B202DC18B001E8DB8 /* AppDelegate.m */; };
 		FD753C1F202DC18B001E8DB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C1E202DC18B001E8DB8 /* ViewController.m */; };
-		FD753C22202DC18B001E8DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD753C20202DC18B001E8DB8 /* Main.storyboard */; };
 		FD753C24202DC18B001E8DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD753C23202DC18B001E8DB8 /* Assets.xcassets */; };
 		FD753C27202DC18B001E8DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD753C25202DC18B001E8DB8 /* LaunchScreen.storyboard */; };
 		FD753C2A202DC18B001E8DB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C29202DC18B001E8DB8 /* main.m */; };
 		FD753C34202DC18C001E8DB8 /* CleanTestSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C33202DC18C001E8DB8 /* CleanTestSearchTests.m */; };
 		FD753C3F202DC18C001E8DB8 /* CleanTestSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C3E202DC18C001E8DB8 /* CleanTestSearchUITests.m */; };
+		FD753C4F202DC1DF001E8DB8 /* CustomTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C4E202DC1DF001E8DB8 /* CustomTableTableViewController.m */; };
+		FD753C52202DC262001E8DB8 /* CustomTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C51202DC262001E8DB8 /* CustomTableViewDataSource.m */; };
+		FD753C59202E9A77001E8DB8 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C58202E9A77001E8DB8 /* View.m */; };
+		FD753C5A202E9A77001E8DB8 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C58202E9A77001E8DB8 /* View.m */; };
+		FD753C5B202E9A77001E8DB8 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FD753C58202E9A77001E8DB8 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		FD753C1B202DC18B001E8DB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FD753C1D202DC18B001E8DB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FD753C1E202DC18B001E8DB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FD753C21202DC18B001E8DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD753C23202DC18B001E8DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD753C26202DC18B001E8DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD753C28202DC18B001E8DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		FD753C3A202DC18C001E8DB8 /* CleanTestSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanTestSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD753C3E202DC18C001E8DB8 /* CleanTestSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleanTestSearchUITests.m; sourceTree = "<group>"; };
 		FD753C40202DC18C001E8DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD753C4D202DC1DF001E8DB8 /* CustomTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableTableViewController.h; sourceTree = "<group>"; };
+		FD753C4E202DC1DF001E8DB8 /* CustomTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableTableViewController.m; sourceTree = "<group>"; };
+		FD753C50202DC262001E8DB8 /* CustomTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewDataSource.h; sourceTree = "<group>"; };
+		FD753C51202DC262001E8DB8 /* CustomTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewDataSource.m; sourceTree = "<group>"; };
+		FD753C57202E9A77001E8DB8 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		FD753C58202E9A77001E8DB8 /* View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +110,13 @@
 		FD753C19202DC18B001E8DB8 /* CleanTestSearch */ = {
 			isa = PBXGroup;
 			children = (
+				FD753C4C202DC1AD001E8DB8 /* CustomTableView */,
 				FD753C1A202DC18B001E8DB8 /* AppDelegate.h */,
 				FD753C1B202DC18B001E8DB8 /* AppDelegate.m */,
 				FD753C1D202DC18B001E8DB8 /* ViewController.h */,
 				FD753C1E202DC18B001E8DB8 /* ViewController.m */,
-				FD753C20202DC18B001E8DB8 /* Main.storyboard */,
+				FD753C57202E9A77001E8DB8 /* View.h */,
+				FD753C58202E9A77001E8DB8 /* View.m */,
 				FD753C23202DC18B001E8DB8 /* Assets.xcassets */,
 				FD753C25202DC18B001E8DB8 /* LaunchScreen.storyboard */,
 				FD753C28202DC18B001E8DB8 /* Info.plist */,
@@ -130,6 +141,17 @@
 				FD753C40202DC18C001E8DB8 /* Info.plist */,
 			);
 			path = CleanTestSearchUITests;
+			sourceTree = "<group>";
+		};
+		FD753C4C202DC1AD001E8DB8 /* CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FD753C4D202DC1DF001E8DB8 /* CustomTableTableViewController.h */,
+				FD753C4E202DC1DF001E8DB8 /* CustomTableTableViewController.m */,
+				FD753C50202DC262001E8DB8 /* CustomTableViewDataSource.h */,
+				FD753C51202DC262001E8DB8 /* CustomTableViewDataSource.m */,
+			);
+			path = CustomTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +262,6 @@
 			files = (
 				FD753C27202DC18B001E8DB8 /* LaunchScreen.storyboard in Resources */,
 				FD753C24202DC18B001E8DB8 /* Assets.xcassets in Resources */,
-				FD753C22202DC18B001E8DB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +288,10 @@
 			files = (
 				FD753C1F202DC18B001E8DB8 /* ViewController.m in Sources */,
 				FD753C2A202DC18B001E8DB8 /* main.m in Sources */,
+				FD753C59202E9A77001E8DB8 /* View.m in Sources */,
+				FD753C4F202DC1DF001E8DB8 /* CustomTableTableViewController.m in Sources */,
 				FD753C1C202DC18B001E8DB8 /* AppDelegate.m in Sources */,
+				FD753C52202DC262001E8DB8 /* CustomTableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD753C5A202E9A77001E8DB8 /* View.m in Sources */,
 				FD753C34202DC18C001E8DB8 /* CleanTestSearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD753C5B202E9A77001E8DB8 /* View.m in Sources */,
 				FD753C3F202DC18C001E8DB8 /* CleanTestSearchUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD753C20202DC18B001E8DB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD753C21202DC18B001E8DB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD753C25202DC18B001E8DB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

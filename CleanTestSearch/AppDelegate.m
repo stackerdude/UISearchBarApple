@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+
+    
+    // Config where searchBarTextDidBeginEditing IS NOT CALLED
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:vc];
+    navCon.navigationBar.translucent = NO;
+    self.window.rootViewController = navCon;
+    [self.window makeKeyAndVisible];
+    
+    
+    // Config where searchBarTextDidBeginEditing IS  CALLED
+/**
+ self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+ self.window.backgroundColor = [UIColor whiteColor];
+ ViewController *vc = [[ViewController alloc] init];
+ self.window.rootViewController = vc;
+ [self.window makeKeyAndVisible];
+ **/
+    
     return YES;
 }
 
